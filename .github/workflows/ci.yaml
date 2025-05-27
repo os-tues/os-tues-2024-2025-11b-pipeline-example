@@ -6,6 +6,5 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - name: Print "gosho"
-        run: |
-          echo "gosho"
+      - name: Run test script
+        run: ./test.sh
