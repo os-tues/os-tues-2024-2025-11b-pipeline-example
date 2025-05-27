@@ -1,0 +1,11 @@
+name: Continuous Integration
+on:
+  push
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print "gosho"
+        run: |
+          echo "gosho"
