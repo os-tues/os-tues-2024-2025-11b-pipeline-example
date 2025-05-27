@@ -40,7 +40,7 @@ else
   FAILED=$(expr $FAILED + 1)
 fi
 
-run_test "that 5^2 = 25" 26 0 5
+run_test "that 5^2 = 25" 25 0 5
 if [ $? -eq 0 ]; then
   PASSED=$(expr $PASSED + 1)
 else
